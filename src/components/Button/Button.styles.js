@@ -1,0 +1,22 @@
+import styled from "styled-components";
+
+export const Wrapper = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--darkGrey);
+    width: 25%;
+    min-width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    color: var(--white);
+    border: 0;
+    font-size: var(--fontBig);
+    margin: 40px auto;
+    outline: none;
+    cursor: pointer;
+
+    :hover {
+        opacity: .8;
+    }
+`
